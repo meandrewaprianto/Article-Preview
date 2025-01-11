@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <img src="images/drawers.jpg" alt="Drawers" class="img-hero" />
+        <div class="content">
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div class="author" id="author">
+          <div class="bio">
+            <img
+              src="images/avatar-michelle.jpg"
+              alt="Michell"
+              class="img-author"
+            />
+            <p class="author-name">
+              Michelle Appleton
+              <span class="author-date-publish">28 Jun 2020</span>
+            </p>
+          </div>
+          <div class="btn-share">
+            <button id="btn-share">
+              <img src="images/icon-share.svg" alt="Share" class="img-share" />
+            </button>
+          </div>
+        </div>
+
+        <!-- THIS IS ACTIVE WHEN SHARE BUTTON IT'S CLICKED -->
+        <div class="btn-social-menu" id="btnSocialMenu">
+          <div class="social-menu">
+            <p>SHARE</p>
+            <a href="#" target="_blank"
+              ><img src="images/icon-facebook.svg" alt="Icon Facebook"
+            /></a>
+            <a href="#" target="_blank"
+              ><img src="images/icon-twitter.svg" alt="Icon Twitter"
+            /></a>
+            <a href="#" target="_blank"
+              ><img src="images/icon-pinterest.svg" alt="Icon Pinterest"
+            /></a>
+          </div>
+          <div class="btn-share">
+            <button id="btnShareBack">
+              <img src="images/icon-share.svg" alt="Share" class="img-share" />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/meandrewaprianto"
+        >Andrew Aprianto</a
+      >.
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
